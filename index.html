@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Online Store</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My mini Store</h1>
+      <p>Simple shopping website</p>
+    </header>
+
+    <main>
+      <h2>Our Products</h2>
+      <div id="productContainer" class="product-container"></div>
+
+      <section class="cart-section">
+        <h2>Shopping Cart</h2>
+        <div id="cartContainer" class="cart-container"></div>
+
+        <div class="bill">
+          <p>
+            <span>Subtotal:</span>
+            <strong id="subtotal">₹0</strong>
+          </p>
+          <p>
+            <span>Discount:</span>
+            <strong id="discount">₹0</strong>
+          </p>
+          <p class="final-amount">
+            <span>Final Amount:</span>
+            <strong id="final-amount">₹0</strong>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
